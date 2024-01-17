@@ -91,3 +91,33 @@ def is_date(s: str) -> bool
 La funzione accetta una stringa e deve verificare se rispetta il formato di una data in cui il giorno e il mese sono rappresentati da due cifre, l'anno da quattro cifre e sono separati dal carattere "/".
 La funzione ritorna `True` se il formato è corretto, `False` altrimenti.
 Ad esempio la stringa `"10/07/2015"` rispetta il formato, mentre `"10-7-15"` o `"10.07.2015"` no.
+
+
+# Decorazione
+
+Nel file `print_decorator.py` implementare il decoratore `print_decorator` che permetta di decorare una funzione affinché ogni stampa (`print`) su `stdout` di quella funzione (solo quella) sia preceduta dalla stringa `"--- Marchesini ---"`.
+
+Si prenda ad esempio il seguente codice: 
+
+```
+@print_decorator
+def myfun1():
+    print('myfun1-a')
+    print('myfun1-b')
+
+
+def myfun2():
+    print('myfun2-a')
+    print('myfun2-b')
+
+
+myfun1()
+myfun2()
+myfun1()
+myfun2()
+```
+
+Se eseguito, deve produrre il seguente output
+
+```
+```
