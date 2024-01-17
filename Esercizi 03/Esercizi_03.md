@@ -120,4 +120,13 @@ myfun2()
 Se eseguito, deve produrre il seguente output
 
 ```
+--- Marchesini --- myfun1-a
+--- Marchesini --- myfun1-b
+myfun2-a
+myfun2-b
+--- Marchesini --- myfun1-a
+--- Marchesini --- myfun1-b
+myfun2-a
+myfun2-b
+
 ```

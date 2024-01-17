@@ -1,5 +1,3 @@
-
-
 # def print_decorator(func):
 #     def wrapper():
 #         # cose (opzionale)
@@ -7,13 +5,6 @@
 #         # cose (opzionale)
 #         return ret
 #     return wrapper
-
-
-# # Fibonacci
-#       0, se n = 0
-# F(n)  1, se n = 1
-#       F(n - 1) + F(n - 2), altrimenti
-
 
 # a = 12
 # def myfun():
